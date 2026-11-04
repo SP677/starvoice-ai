@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarVoice AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>✦ STARVOICE AI</h2>
+    <p>YOUR VOICE, YOUR CREATION</p>
+  </header>
+
+  <main>
+    <h1>Make your words sound amazing.</h1>
+    <p>Create AI voice messages responsibly.</p>
+
+    <textarea id="script" placeholder="Type your message..."></textarea>
+
+    <select id="voice">
+      <option>Warm narrator</option>
+      <option>Bright storyteller</option>
+      <option>Calm announcer</option>
+    </select>
+
+    <label>
+      <input type="checkbox" id="permission">
+      I have permission to use this voice.
+    </label>
+
+    <button id="generate">Create voice message</button>
+    <p id="status">Demo mode</p>
+    <audio id="player" controls hidden></audio>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
